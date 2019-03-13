@@ -1,4 +1,3 @@
-setwd("C:/Users/paul/Documents/R-projects/AoC 2015/day_03")
 input <- readLines("input_day_03.txt")
 inp   <- unlist(strsplit(input, ""))
 x     <- as.numeric(c(-1, 0, 0, 1, inp)[match(inp, c("<", "^", "v", ">", inp))])
