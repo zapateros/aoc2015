@@ -1,4 +1,3 @@
-setwd("C:/Users/paul/Documents/R-projects/AoC 2015/day_01")
 input <- readLines("input_day_01.txt")
 inp   <- unlist(strsplit(input,""))
 nums  <- gsub("\\(","1",inp)
