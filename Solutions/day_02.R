@@ -1,4 +1,3 @@
-setwd("C:/Users/paul/Documents/R-projects/AoC 2015/day_02")
 input  <- readLines("input_day_02.txt")
 inp    <- matrix(as.numeric(unlist(strsplit(input,"x"))), ncol = 3, byrow = TRUE)
 paper  <- 0
